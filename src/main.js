@@ -942,7 +942,7 @@ function fastLoop(){
         Nanite: {},
     };
 
-    var time_multiplier = 0.25;
+    var time_multiplier = 25;
 
     if (global.race.species === 'protoplasm'){
         // Early Evolution Game

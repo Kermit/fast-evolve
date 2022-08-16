@@ -141,9 +141,9 @@ export function gameLoop(act){
                 calcATime();
                 
                 if (global.settings.at > 0){
-                    main_timer = Math.ceil(main_timer * 0.5);
-                    mid_timer = Math.ceil(mid_timer * 0.5);
-                    long_timer = Math.ceil(long_timer * 0.5);
+                    main_timer = Math.ceil(main_timer * 50);
+                    mid_timer = Math.ceil(mid_timer * 50);
+                    long_timer = Math.ceil(long_timer * 50);
                 }
 
                 if (webWorker.w){
